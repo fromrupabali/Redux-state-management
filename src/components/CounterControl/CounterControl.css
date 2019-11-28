@@ -1,0 +1,19 @@
+.CounterControl{
+    margin-top: 100px;
+}
+
+.CounterControl button{
+    width: 130px;
+    height: 45px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background: rgb(211, 63, 9);
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.CounterControl button:hover{
+    background: orangered;
+}
