@@ -1,8 +1,37 @@
 .CounterContainer{
     width: 400px;
     height: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
     border: 1px solid rgb(204, 198, 198);
     border-radius: 5px;
     margin-left: 35%;
+  }
+
+  .StoreButton{
+    padding: 10px 35px;
+    font: inherit;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background: rgb(19, 68, 160);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .StoreButton:hover{
+    background: rgb(22, 87, 207);
+  }
+
+  .Result{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .Result ul{
+    list-style: none;
+  }
+  .Result li{
+    margin: 10px;
+    background: rgb(234, 236, 231);
   }
